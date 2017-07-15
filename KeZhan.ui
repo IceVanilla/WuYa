@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KeZhan</class>
+ <widget class="QDialog" name="KeZhan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1071</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1071</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>无涯</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/image/Resources/无涯.png</normaloff>:/image/Resources/无涯.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/image/Resources/kezhan.png);</string>
+  </property>
+  <widget class="QLabel" name="lblText">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>530</y>
+     <width>971</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/Resources/透明背景.png);
+color: rgb(255, 255, 255);
+font: 16pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBXS">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>220</y>
+     <width>371</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/people/Resources/baixiaosheng.png);
+color: rgb(255, 255, 255);
+font: 16pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblBXS">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>340</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+color: rgb(255, 255, 255);
+font: 16pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>百晓生</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRest">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>320</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 20pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>休息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnState">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>250</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 20pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>状态</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBag">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>180</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 20pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>背包</string>
+   </property>
+  </widget>
+  <zorder>lblBXS</zorder>
+  <zorder>btnBXS</zorder>
+  <zorder>lblText</zorder>
+  <zorder>btnRest</zorder>
+  <zorder>btnState</zorder>
+  <zorder>btnBag</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Menu.qrc"/>
+ </resources>
+ <connections/>
+</ui>

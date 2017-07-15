@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HEnd</class>
+ <widget class="QDialog" name="HEnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1071</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1071</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>无涯</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Menu.qrc">
+    <normaloff>:/icon/Resources/无涯.png</normaloff>:/icon/Resources/无涯.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/end/Resources/he.png);</string>
+  </property>
+  <widget class="QLabel" name="lblWord">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>510</y>
+     <width>891</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+color: rgb(255, 255, 255);
+font: 26pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>你和师妹回到沧山，在山中过着闲云野鹤般的日子。从此抛下江湖恩怨，远离世事尘嚣，只赏眼前人。</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Menu.qrc"/>
+ </resources>
+ <connections/>
+</ui>

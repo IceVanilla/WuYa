@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Shenyi</class>
+ <widget class="QDialog" name="Shenyi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1071</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1071</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>药铺</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Menu.qrc">
+    <normaloff>:/icon/Resources/无涯.png</normaloff>:/icon/Resources/无涯.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/image/Resources/yiguan.png);</string>
+  </property>
+  <widget class="QLabel" name="lblYP">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>71</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+color: rgb(255, 255, 255);
+font: 38pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>药铺</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnGBW">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>110</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>固本丸</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnPYD">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>210</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>培元丹</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblGBW">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>100</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+color: rgb(255, 255, 255);
+font: 16pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>2000文  +2000血</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblPYD">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>200</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+color: rgb(255, 255, 255);
+font: 16pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>2000文  +1000气</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblText">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>490</y>
+     <width>1021</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+font: 16pt &quot;隶书&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>没钱还买什么药，休要消遣老夫，出去出去。</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Menu.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Worldmap</class>
+ <widget class="QDialog" name="Worldmap">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1071</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1071</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>无涯</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Menu.qrc">
+    <normaloff>:/icon/Resources/无涯.png</normaloff>:/icon/Resources/无涯.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/image/Resources/worldmap4.png);</string>
+  </property>
+  <widget class="QPushButton" name="btnXuanwu">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>120</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>玄武崖</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBaihu">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>350</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>白虎穴</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCangshan">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>260</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>沧山</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnZhuque">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>640</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>朱雀巢</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnYingshan">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>490</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>影山</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnChangan">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>440</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>长安</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnQinglong">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>290</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/other/Resources/透明背景.png);
+border-image: url(:/other/Resources/边框2.png);
+color: rgb(255, 255, 255);
+font: 22pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>青龙潭</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Menu.qrc"/>
+ </resources>
+ <connections/>
+</ui>
