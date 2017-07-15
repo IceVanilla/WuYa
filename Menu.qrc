@@ -1,0 +1,56 @@
+<RCC>
+  <qresource prefix="/image">
+    <file>Resources/warback.png</file>
+    <file>Resources/baihuxue.png</file>
+    <file>Resources/begin ing.png</file>
+    <file>Resources/beginning.png</file>
+    <file>Resources/cangshan.png</file>
+    <file>Resources/changan.png</file>
+    <file>Resources/dadian.png</file>
+    <file>Resources/kezhan.png</file>
+    <file>Resources/minju1.png</file>
+    <file>Resources/minju2.png</file>
+    <file>Resources/mishi.png</file>
+    <file>Resources/qinglongtan.png</file>
+    <file>Resources/worldmap4.png</file>
+    <file>Resources/xuanwuku.png</file>
+    <file>Resources/yiguan.png</file>
+    <file>Resources/yingshan.png</file>
+    <file>Resources/zhuquechao.png</file>
+    <file>Resources/warback.png</file>
+  </qresource>
+  <qresource prefix="/people">
+    <file>Resources/baihu.png</file>
+    <file>Resources/boss.png</file>
+    <file>Resources/qinglong.png</file>
+    <file>Resources/xuanwu.png</file>
+    <file>Resources/zhuque.png</file>
+    <file>Resources/baixiaosheng.png</file>
+    <file>Resources/herohead.png</file>
+    <file>Resources/luren1.png</file>
+    <file>Resources/luren2.png</file>
+    <file>Resources/sisterhead.png</file>
+  </qresource>
+  <qresource prefix="/icon">
+    <file>Resources/无涯.png</file>
+  </qresource>
+  <qresource prefix="/other">
+    <file>Resources/baofu.png</file>
+    <file>Resources/danyao2.png</file>
+    <file>Resources/qinglongjian.png</file>
+    <file>Resources/qinglonglin2.png</file>
+    <file>Resources/shuimo1.png</file>
+    <file>Resources/shuimo3.png</file>
+    <file>Resources/shuimo5.png</file>
+    <file>Resources/xijiao2.png</file>
+    <file>Resources/zhengyangjian.png</file>
+    <file>Resources/背景.png</file>
+    <file>Resources/边框2.png</file>
+    <file>Resources/透明背景.png</file>
+  </qresource>
+  <qresource prefix="end">
+    <file>Resources/be.png</file>
+    <file>Resources/end.png</file>
+    <file>Resources/he.png</file>
+  </qresource>
+</RCC>
